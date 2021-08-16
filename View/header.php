@@ -4,7 +4,7 @@
     <nav>
         <ul>
             <li><a href="#">Accueil</a></li>
-            <li><a href="#">Réglement</a></li>
+            <li><a href="#">Règlement</a></li>
             <li><a href="#">Contexte</a></li>
             <li><a href="#">Inscription</a></li>
             <li><a href="#">Connexion</a></li>

@@ -8,6 +8,10 @@
     <title>Document</title>
 </head>
 <body>
+
     <?php require('header.php')?>
+
+    <?php require('arc.php')?>
+
 </body>
 </html>

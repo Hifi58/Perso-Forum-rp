@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Georama&display=swap');
 
 :root{
-    --nav-color: hsl(202, 92%, 15%);
+    --nav-color: hsla(0, 5%, 12%, 0.9);
 }
 
 *, *::before *::after{
@@ -21,13 +21,11 @@ body{
 header{
     background: var(--nav-color);
     text-align: center;
-    position: fixed;
-    z-index: 999;
     width: 100%;
 }
 
 .logo{
-    color: hsl(0, 0%, 100%);
+    color: hsl(60, 100%, 99%);
     letter-spacing: 2px;
 }
 
@@ -38,6 +36,7 @@ nav{
   left: 0;
   background: var(--nav-color);
   width: 100%;
+  position: fixed;
   transform: scale(1, 0);
   transform-origin: top;
   transition: transform 400ms ease-in-out;
@@ -65,7 +64,7 @@ nav a {
 }
 
 nav a:hover{
-    color:hsl(0, 0%, 0%);
+    color: hsl(0, 2%, 88%);
 }
 
 .nav-toggle{
@@ -183,4 +182,69 @@ nav a:hover{
     .logo{
         margin-left: 1rem;
     }
+}
+
+/**********************
+     Section ARC
+**********************/
+
+section{
+    min-height: 50vh;
+    width: 100%
+}
+
+section h2{
+    text-align: center;
+    margin-top: 2em;
+}
+.containerarc{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3em;
+}
+
+.cardarc{
+  
+    height: 320px;
+    width: 200px;
+    background: hsla(0, 5%, 12%, 0.9);
+    box-shadow: 5px 0px 7px 0px hsl(0, 5%, 12%);
+}
+
+.cardcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+    word-break: break-all;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    position: relative;
+    overflow: hidden;
+    transform: scale(0,1);
+}
+
+.cardcontent:hover{
+    transform: scale(1,1);
+}
+
+.card1{
+    background: url(images/montagne.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
+
+.card2{
+    background: url(images/foret.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
+
+.card3{
+    background: url(images/pirates.jpg);
+    background-size: cover;
+    background-position-x: right;
 }

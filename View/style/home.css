@@ -123,6 +123,7 @@ nav a:hover{
     header{
         display: grid;
         grid-template-columns: 1fr auto minmax(600px, 1fr) 1fr;
+        border-bottom: 2px solid hsl(0, 83%, 31%);
     }
     
     .logo{
@@ -196,6 +197,7 @@ section{
 section h2{
     text-align: center;
     margin-top: 2em;
+    letter-spacing: 0.15em;
 }
 .containerarc{
     display: flex;

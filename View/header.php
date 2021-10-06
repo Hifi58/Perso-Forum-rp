@@ -1,5 +1,5 @@
 <header>
-    <h1 class="logo">Médieval Forum</h1>
+    <h1 class="logo">Gwynbleidd</h1>
     <input type="checkbox" id="nav-toggle" class="nav-toggle">
     <nav>
         <ul>

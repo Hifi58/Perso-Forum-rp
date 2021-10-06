@@ -13,5 +13,6 @@
 
     <?php require('arc.php')?>
 
+    <script src="View/js/card.js"></script>
 </body>
 </html>
